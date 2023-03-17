@@ -1,5 +1,6 @@
 import { Text, StyleSheet } from "react-native";
-import Colors from "../constants/colors";
+import Colors from "../../constants/colors";
+
 const Title = ({ children }) => {
   return <Text style={styles.title}>Opponent's Guess</Text>;
 };
@@ -10,10 +11,10 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 24,
     fontWeight: "bold",
-    color: Colors.accent500,
+    color: "white",
     textAlign: "center",
     borderWidth: 2,
-    borderColor: "#ddb52f",
+    borderColor: "white",
     padding: 12,
   },
 });
