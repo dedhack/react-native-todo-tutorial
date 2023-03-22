@@ -81,10 +81,6 @@ const styles = StyleSheet.create({
     marginHorizontal: 24,
     padding: 16,
   },
-  instructionText: {
-    color: Colors.accent500,
-    fontSize: 24,
-  },
   numberInput: {
     height: 50,
     width: 100,
